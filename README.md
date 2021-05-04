@@ -305,7 +305,7 @@ Use this to create a submission repository.
 This is how we will mark the coursework.
 
 **There is a README.md file there too.
-Edit this file to add your CID**.
+Edit this file to add your CID - 01737815**.
 
 #### Module Repository ####
 The repository that this handbook is in is
