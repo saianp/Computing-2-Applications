@@ -5,13 +5,15 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "pwa-node",
+            "name": "fx-dev debug",
+            "type": "firefox",
             "request": "launch",
-            "name": "Launch Webserver",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${workspaceFolder}/web-app/server.js"
+            "reAttach": true,
+            "reloadOnAttach": true,
+            "file": "${workspaceFolder}/index.html",
+            "preferences": {
+                "security.fileuri.strict_origin_policy": false
+            }    
         }
     ]
 }
